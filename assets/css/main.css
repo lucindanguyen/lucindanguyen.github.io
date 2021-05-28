@@ -1,9 +1,21 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-size: 50px;
+	background: lime;
+	color:white;
+	padding:5%;
+}
+
+.lucinda {
+	color:black;
+	font-weight:bold;
+	text-decoration-line: line-through;
+	
+
 }
 
 a {
-	color:red;
+	color: #515ada;
+	font-size:30px;
 }
 
