@@ -6,16 +6,40 @@ body {
 	padding:5%;
 }
 
-.lucinda {
+.hello {
 	color:black;
 	font-weight:bold;
-	text-decoration-line: line-through;
-	
+	font-size: 150px;
+	font-family: arow;
 
+
+}
+
+.lucinda {
+	color:black;
+	font-weight: bold;
+	font-family: ark-es;
+	font-size: 120px;
 }
 
 a {
 	color: #515ada;
 	font-size:30px;
+	font-family: aileron;
 }
 
+.design {
+	font-size: 80px;
+}
+
+.icon {
+	margin-left: 1200px;
+	flex:wrap;
+	display: flex;
+	box-shadow: 15px 15px 15px  black;
+}
+
+.gallery {
+	flex:wrap;
+	display:flex;
+}

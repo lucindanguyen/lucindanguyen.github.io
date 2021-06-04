@@ -3,15 +3,71 @@ body {
 	font-size: 30px;
 	line-height:30px;
 	font-weight:bold;
-	background: rgb(73,91,102);
-	background: linear-gradient(0deg, rgba(73,91,102,1) 5%, rgba(126,190,132,1) 32%, rgba(45,107,253,0.5676645658263305) 80%);
+	background-color: white;
 }
 
 a {
-	color:darkolivegreen;
+	color:blue;
 	background-color: yellow;
 	flex-wrap:flex;
 	
+}
+
+#star-five {
+	margin: 100px 0;
+	position: relative;
+	display: block;
+	color: black;
+	width: 0px;
+	height: 0px;
+	border-right: 100px solid transparent;
+	border-bottom: 70px solid black;
+	border-left: 100px solid transparent;
+	transform: rotate(35deg);
+  }
+  #star-five:before {
+	border-bottom: 80px solid black;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	position: absolute;
+	height: 0;
+	width: 0;
+	top: -45px;
+	left: -65px;
+	display: block;
+	content: '';
+	transform: rotate(-35deg);
+  }
+  #star-five:after {
+	position: absolute;
+	display: block;
+	color: black;
+	top: 3px;
+	left: -105px;
+	width: 0px;
+	height: 0px;
+	border-right: 100px solid transparent;
+	border-bottom: 70px solid black;
+	border-left: 100px solid transparent;
+	transform: rotate(-70deg);
+	content: '';
+  }
+
+.amazonme {
+	font-size:35px;
+	flex-wrap:wrap;
+	display: flex;
+
+}
+
+.bubble {
+	padding: 25px;
+	background-color: blue;
+	color:yellow;
+	border-radius: 50px;
+	font-size: 15px;
+	text-shadow: yellow;
+
 }
 
 .inner {
@@ -50,10 +106,10 @@ a {
 }
 
 .backgroundinfo.bg {
-	background-color: violet;
+	background-color:tomato;
 	padding:50px;
 	border-radius: 40px;
-	box-shadow: 10px 20px greenyellow;
+	box-shadow: 10px 20px yellow;
 	
 
 }
@@ -79,17 +135,26 @@ a {
 	color:white;
 	width:50%;
 	border-radius:50px;
-	margin-bottom:100px;
 	transition:2s;
+	display:table;
 	
 }
+
+#parent {
+	display:table;
+}
+
+#child {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+
 
 .item:hover {
 	background-color: greenyellow;
 	
 }
-
-
 
 
 @keyframes animateitem {
@@ -114,7 +179,7 @@ a {
 
 .item {
 	animation:
-		animateitem 25s linear infinite alternate,
+		animateitem 15s linear infinite alternate,
 	 	sideways 5s ease-in-out infinite alternate;
 }
 
@@ -133,36 +198,47 @@ a {
 }
 
 .item.largetext.geographics {
-	height:150px;
-	width:80%;
+	height:130px;
+	width:800px;
 }
 
 .item.left25 {
 	margin-left:25%;
-	height:100px;
 	width:20%;
 }
 
 .item.lisa {
-	font-size:40px;
+	font-size:45px;
 	width:355px;
-	height:140px;
-	line-height: 40px;
+	line-height: 45px;
 	text-align:center;
 }
 
 .item.joel {
 	font-size:25px;
 	width:200px;
-	height:170px;
 	line-height:30px;
 	text-align: center;
 }
 
+.item.kirrily {
+	font-size:35px;
+	width:400px;
+	line-height:38px;
+	text-align: center;
+}
+
+.item.ben {
+	font-size:50px;
+	text-align:center;
+	line-height:50px;
+	width:490px;
+	margin-left:25%;
+}
+
 .item.annmarie {
 	font-size:70px;
-	width:80%;
-	height:260px;
+	width:750px;
 	text-align:center;
 	line-height:70px;
 	margin-left:25%;
@@ -170,8 +246,7 @@ a {
 
 .item.elena {
 	font-size:50px;
-	width:60%;
-	height:150px;
+	width:500px;
 	text-align:center;
 	line-height:50px;
 	margin-right:50%;
@@ -180,19 +255,26 @@ a {
 .item.lucinda {
 	font-size:90px;
 	width:800px;
-	height:400px;
 	text-align: center;
 	line-height: 100px;
 
 }
 
+.item.maddy {
+	font-size:45px;
+	width:300px;
+	text-align: center;
+	line-height:50px;
+}
+
 .item.lifi {
 	font-size:40px;
 	width:420px;
-	height:330px;
 	text-align: center;
 	line-height: 40px;
 }
+
+
 
 .stroke {
 	border-color:black;
