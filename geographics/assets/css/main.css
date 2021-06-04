@@ -151,12 +151,6 @@ a {
 
 
 
-.item:hover {
-	background-color: greenyellow;
-	
-}
-
-
 @keyframes animateitem {
 	0% {
 		margin-top:100vh;
