@@ -244,6 +244,12 @@ a {
 	margin-left:25%;
 }
 
+.item.amelia {
+	width:400px;
+	font-size: 60px;
+	line-height: 60px;
+}
+
 .item.elena {
 	font-size:50px;
 	width:500px;
@@ -274,6 +280,50 @@ a {
 	line-height: 40px;
 }
 
+.item.stephanie {
+	width:230px;
+	font-size:40px;
+	line-height: 40px;
+
+}
+
+.item.tessa {
+	width:650px;
+	font-size: 70px;
+	line-height: 70px;
+}
+
+.item.madeleine {
+	width:400px;
+	font-size: 50px;
+	line-height: 50px;
+}
+
+.item.linda {
+	width:350px;
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.item.junyi {
+	width:400px;
+	font-size: 80px;
+	line-height: 80px;
+}
+
+.item.yuke {
+	width:500px;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.item.madeleine.next {
+	color:yellow;
+	background-color: blue;
+	width:500px;
+	font-size: 30px;
+
+}
 
 
 .stroke {

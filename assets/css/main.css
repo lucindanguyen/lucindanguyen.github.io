@@ -12,14 +12,19 @@ body {
 	font-size: 150px;
 	font-family: arow;
 
-
 }
+
+@font-face {
+	font-family: ark;
+	src: url(fonts/ARK-ES-SolidRegular.otf);
+  }
 
 .lucinda {
 	color:black;
 	font-weight: bold;
-	font-family: ark-es;
+	font-family: ark;
 	font-size: 120px;
+	
 }
 
 a {
