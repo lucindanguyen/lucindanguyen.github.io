@@ -6,6 +6,11 @@ body {
 	padding:5%;
 }
 
+@font-face {
+	font-family: arow;
+	src: url(fonts/AROW-Bold.otf);
+}
+
 .hello {
 	color:black;
 	font-weight:bold;
