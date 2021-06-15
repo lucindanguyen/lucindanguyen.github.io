@@ -17,8 +17,8 @@ a {
 .item.largetext.aoltitle {
 	position:absolute;
 	color:black;
-	background-color: red;
-	font-size:100px;
+	background-color: white;
+	font-size:120px;
 	line-height: 130px;
 	font-family: arow;
 }
@@ -46,7 +46,7 @@ a {
 }
 
 #star-five {
-	margin: 100px 0;
+	margin: 80px 0;
 	position: relative;
 	display: block;
 	color: black;
@@ -88,8 +88,35 @@ a {
 .amazonme {
 	font-size:35px;
 	flex-wrap:wrap;
-	display: flex;
+	margin-bottom: 50px;
 
+}
+
+.aol {
+	background-color: white;
+	stroke:black;
+	color:red;
+	padding:15px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+}
+
+.filter {
+	background-color: lightgrey;
+	stroke: black;
+	color:green;
+	padding:15px;
+	box-shadow: 3px 3px 3px grey;
+	margin-left: 84%;
+	border-radius: 10px;
+}
+
+.results {
+	font-size: 20px;
+	text-align: center;
+	margin-left: 10%;
+	color:grey;
+	font-weight: normal;
 }
 
 .bubble {
@@ -139,16 +166,14 @@ a {
 	margin-right:2%;
 	text-align: justify;
 	line-height:normal;
+	width:25%;
 }
 
-.backgroundinfo.bg {
-	background-color:red;
-	padding:50px;
-	border-radius: 40px;
-	box-shadow: 10px 20px grey;
-	
 
+.backgroundinfo p {
+	text-indent: 60px;
 }
+
 .right {
 	display:flex;
 	flex-wrap:flex;
@@ -208,8 +233,8 @@ a {
 
 .item {
 	animation:
-		animateitem 15s linear infinite alternate,
-	 	sideways 5s ease-in-out infinite alternate;
+		animateitem 12s linear infinite alternate,
+	 	sideways 4s ease-in-out infinite alternate;
 }
 
 .item a {
@@ -250,9 +275,9 @@ a {
 }
 
 .item.kirrily {
-	font-size:35px;
+	font-size:45px;
 	width:400px;
-	line-height:38px;
+	line-height:43px;
 	text-shadow: 2px 2px 2px blue;
 }
 
@@ -288,16 +313,16 @@ a {
 }
 
 .item.elena {
-	font-size:50px;
-	width:450px;
+	font-size:40px;
+	width:320px;
 	line-height:50px;
 	margin-right:50%;
 }
 
 .item.maddy {
-	font-size:45px;
-	width:650px;
-	line-height:50px;
+	font-size:35px;
+	width:450px;
+	line-height:40px;
 }
 
 .item.lifi {
@@ -313,11 +338,6 @@ a {
 
 }
 
-.item.tessa {
-	width:650px;
-	font-size: 70px;
-	line-height: 70px;
-}
 
 .item.madeleine {
 	width:400px;
@@ -352,7 +372,7 @@ a {
 }
 
 .item.grace {
-	width:500px;
+	width:380px;
 	font-size:60px;
 	line-height:65px;
 }
