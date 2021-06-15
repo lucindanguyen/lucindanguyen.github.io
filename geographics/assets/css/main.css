@@ -24,16 +24,16 @@ a {
 }
 
 .thelma {
-	font-size: 25px;
-	line-height: 23px;
+	font-size: 20px;
+	line-height: 20px;
 	flex-wrap:wrap;
 	display: flex;
 	margin: auto;
 }
 
 .history {
-	font-size:25px;
-	line-height: 23px;
+	font-size:20px;
+	line-height: 20px;
 	flex-wrap:wrap;
 	display:flex;
 	justify-content: space-between;
@@ -42,8 +42,8 @@ a {
 }
 
 .weirdest {
-	font-size: 25px;
-	line-height: 23px;
+	font-size: 20px;
+	line-height: 20px;
 	flex-wrap:wrap;
 	display: flex;
 	margin-left:auto;
@@ -67,26 +67,26 @@ a {
 }
 
 #star-five {
-	margin: 80px 0;
+	margin: 50px 0;
 	position: relative;
 	display: block;
 	color: black;
 	width: 0px;
 	height: 0px;
-	border-right: 100px solid transparent;
-	border-bottom: 70px solid black;
-	border-left: 100px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 35px solid black;
+	border-left: 50px solid transparent;
 	transform: rotate(35deg);
   }
   #star-five:before {
-	border-bottom: 80px solid black;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
+	border-bottom: 40px solid black;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
 	position: absolute;
 	height: 0;
 	width: 0;
-	top: -45px;
-	left: -65px;
+	top: -22.5px;
+	left: -32.5px;
 	display: block;
 	content: '';
 	transform: rotate(-35deg);
@@ -96,12 +96,12 @@ a {
 	display: block;
 	color: black;
 	top: 3px;
-	left: -105px;
+	left: -52.5px;
 	width: 0px;
 	height: 0px;
-	border-right: 100px solid transparent;
-	border-bottom: 70px solid black;
-	border-left: 100px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 35px solid black;
+	border-left: 50px solid transparent;
 	transform: rotate(-70deg);
 	content: '';
   }
@@ -436,13 +436,12 @@ a {
 }
 
 .rightside {
-	flex-wrap: wrap;
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	height:100vh;
+	height:120vh;
 	background-color: lime;
-	margin-bottom: auto;
+	margin: auto;
 
 	
 
