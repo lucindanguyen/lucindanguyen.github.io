@@ -10,7 +10,6 @@ a {
 	color:blue;
 	background-color: yellow;
 	flex-wrap:flex;
-	
 }
 
 
@@ -59,6 +58,7 @@ a {
 	flex-wrap:wrap;
 	display:flex;
 	justify-content: space-between;
+	font-size:13px
 }
 
 .stars {
@@ -370,9 +370,9 @@ a {
 }
 
 .item.elena {
-	font-size:40px;
+	font-size:35px;
 	width:320px;
-	line-height:50px;
+	line-height:40px;
 	text-shadow: 2px 2px 2px grey;
 }
 
@@ -384,9 +384,9 @@ a {
 }
 
 .item.lifi {
-	font-size:70px;
-	width:420px;
-	line-height: 60px;
+	font-size:60px;
+	width:400px;
+	line-height: 50px;
 	text-shadow: 2px 2px 2px blue;
 }
 
@@ -400,8 +400,8 @@ a {
 
 .item.junyi {
 	width:400px;
-	font-size: 80px;
-	line-height: 80px;
+	font-size: 70px;
+	line-height: 60px;
 	text-shadow: 2px 2px 2px green;
 }
 
@@ -416,6 +416,9 @@ a {
 	width:100%;
 	height:60vh;
 	background-color: lime;
+	position:relative;
+	margin: auto;
+
 }
 
 .gallery {
@@ -429,8 +432,19 @@ a {
 	width:810px;
 	padding: 20px;
 	position:relative;
+
+}
+
+.rightside {
 	flex-wrap: wrap;
+	position: relative;
 	display: flex;
+	flex-wrap: wrap;
+	height:100vh;
+	background-color: lime;
+	margin-bottom: auto;
+
+	
 
 }
 
