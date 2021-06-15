@@ -132,7 +132,9 @@ a {
 	stroke: black;
 	color:green;
 	padding:15px;
-	box-shadow: 3px 3px 3px grey;
+	font-size: 23px;
+	font-weight: normal;
+	box-shadow: 3px 3px 3px 3px grey;
 	margin-left: 84%;
 	border-radius: 10px;
 	margin-bottom: 5px;
