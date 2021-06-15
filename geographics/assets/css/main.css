@@ -24,11 +24,22 @@ a {
 	width:550px;
 }
 
+.thelma {
+	font-size: 25px;
+	line-height: 23px;
+	flex-wrap:wrap;
+	display: flex;
+	margin: auto;
+}
+
 .history {
 	font-size:25px;
 	line-height: 23px;
 	flex-wrap:wrap;
 	display:flex;
+	justify-content: space-between;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 .weirdest {
@@ -36,11 +47,15 @@ a {
 	line-height: 23px;
 	flex-wrap:wrap;
 	display: flex;
+	margin-left:auto;
+	margin-right: auto;
+	justify-content: space-between;
 }
 
 .timestamp {
 	font-style: italic;
 	margin-right:auto;
+	margin-left:auto;
 	flex-wrap:wrap;
 	display:flex;
 	justify-content: space-between;
@@ -120,6 +135,7 @@ a {
 	box-shadow: 3px 3px 3px grey;
 	margin-left: 84%;
 	border-radius: 10px;
+	margin-bottom: 5px;
 }
 
 .results {
