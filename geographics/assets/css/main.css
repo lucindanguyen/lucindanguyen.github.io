@@ -176,7 +176,7 @@ a {
 
 
 .backgroundinfo {
-	font-size:20px;
+	font-size:15px;
 	margin-bottom:5%;
 	margin-left:5%;
 	margin-right:5%;
@@ -185,16 +185,25 @@ a {
 	line-height:normal;
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
+	font-weight: normal;
 }
 
 .backgroundinfo em {
 	font-style:italic;
 }
 
+
 .backgroundinfo p {
 	text-indent: 60px;
 }
 
+.chapter {
+	font-family: arow;
+	font-size: 15px;
+	color:white;
+	margin-left:5%;
+	margin-top: 5%;
+}
 .contain {
 	display: flex;
 	flex-wrap: wrap;
@@ -319,6 +328,7 @@ a {
 	font-size:25px;
 	width:200px;
 	line-height:30px;
+	text-shadow: 2px 2px 2px red;
 }
 
 .item.kirrily {
@@ -332,7 +342,6 @@ a {
 	font-size:50px;
 	line-height:50px;
 	width:490px;
-	margin-left:25%;
 	text-shadow: 2px 2px 2px green;
 }
 
@@ -340,7 +349,7 @@ a {
 	font-size:70px;
 	width:800px;
 	line-height:70px;
-	margin-left:25%;
+	text-shadow: 2px 2px 2px yellow;
 }
 
 .item em {
@@ -357,31 +366,35 @@ a {
 	width:400px;
 	font-size: 60px;
 	line-height: 60px;
+	text-shadow: 2px 2px 2px red;
 }
 
 .item.elena {
 	font-size:40px;
 	width:320px;
 	line-height:50px;
-	margin-right:50%;
+	text-shadow: 2px 2px 2px grey;
 }
 
 .item.maddy {
 	font-size:35px;
 	width:450px;
 	line-height:40px;
+	text-shadow: 2px 2px 2px red;
 }
 
 .item.lifi {
-	font-size:40px;
+	font-size:70px;
 	width:420px;
-	line-height: 40px;
+	line-height: 60px;
+	text-shadow: 2px 2px 2px blue;
 }
 
 .item.stephanie {
-	width:230px;
+	width:300px;
 	font-size:40px;
 	line-height: 40px;
+	text-shadow: 2px 2px 2px yellow;
 
 }
 
@@ -389,14 +402,15 @@ a {
 	width:400px;
 	font-size: 80px;
 	line-height: 80px;
+	text-shadow: 2px 2px 2px green;
 }
 
 .item.grace {
 	width:380px;
 	font-size:60px;
 	line-height:65px;
+	text-shadow: 2px 2px 2px grey;
 }
-
 
 .promo {
 	width:100%;
@@ -408,8 +422,17 @@ a {
 	position:absolute;
 	flex-wrap:wrap;
 	display: flex;
+	position:relative;
 }
 
+.item.book {
+	width:810px;
+	padding: 20px;
+	position:relative;
+	flex-wrap: wrap;
+	display: flex;
+
+}
 
 @font-face {
 	font-family: arow;
