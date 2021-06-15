@@ -3,7 +3,7 @@ body {
 	font-size: 30px;
 	line-height:30px;
 	font-weight:bold;
-	background-color: white;
+	background-color: whitesmoke;
 }
 
 a {
@@ -11,6 +11,38 @@ a {
 	background-color: yellow;
 	flex-wrap:flex;
 	
+}
+
+
+.item.largetext.aoltitle {
+	position:absolute;
+	color:black;
+	background-color: red;
+	font-size:100px;
+	line-height: 130px;
+	font-family: arow;
+}
+
+.history {
+	font-size:25px;
+	line-height: 23px;
+	flex-wrap:wrap;
+	display:flex;
+}
+
+.weirdest {
+	font-size: 25px;
+	line-height: 23px;
+	flex-wrap:wrap;
+	display: flex;
+}
+
+.timestamp {
+	font-style: italic;
+	margin-right:auto;
+	flex-wrap:wrap;
+	display:flex;
+	justify-content: space-between;
 }
 
 #star-five {
@@ -65,9 +97,13 @@ a {
 	background-color: blue;
 	color:yellow;
 	border-radius: 50px;
-	font-size: 15px;
 	text-shadow: yellow;
 
+}
+
+
+.review {
+	font-size:15px;
 }
 
 .inner {
@@ -106,10 +142,10 @@ a {
 }
 
 .backgroundinfo.bg {
-	background-color:tomato;
+	background-color:red;
 	padding:50px;
 	border-radius: 40px;
-	box-shadow: 10px 20px yellow;
+	box-shadow: 10px 20px grey;
 	
 
 }
@@ -135,7 +171,6 @@ a {
 	color:white;
 	width:50%;
 	border-radius:50px;
-	transition:2s;
 	display:table;
 	
 }
@@ -203,40 +238,48 @@ a {
 
 .item.lisa {
 	font-size:45px;
-	width:355px;
+	width:320px;
 	line-height: 45px;
-	text-align:center;
+	text-shadow: 3px 3px 3px grey;
 }
 
 .item.joel {
 	font-size:25px;
 	width:200px;
 	line-height:30px;
-	text-align: center;
 }
 
 .item.kirrily {
 	font-size:35px;
 	width:400px;
 	line-height:38px;
-	text-align: center;
+	text-shadow: 2px 2px 2px blue;
 }
 
 .item.ben {
 	font-size:50px;
-	text-align:center;
 	line-height:50px;
 	width:490px;
 	margin-left:25%;
+	text-shadow: 2px 2px 2px green;
 }
 
 .item.annmarie {
 	font-size:70px;
-	width:750px;
-	text-align:center;
+	width:800px;
 	line-height:70px;
 	margin-left:25%;
 }
+
+.item em {
+	font-style:italic;	
+	font-size:60%;
+}
+
+.item.joel em {
+	font-size:70%;
+}
+
 
 .item.amelia {
 	width:400px;
@@ -246,31 +289,20 @@ a {
 
 .item.elena {
 	font-size:50px;
-	width:500px;
-	text-align:center;
+	width:450px;
 	line-height:50px;
 	margin-right:50%;
 }
 
-.item.lucinda {
-	font-size:90px;
-	width:800px;
-	text-align: center;
-	line-height: 100px;
-
-}
-
 .item.maddy {
 	font-size:45px;
-	width:300px;
-	text-align: center;
+	width:650px;
 	line-height:50px;
 }
 
 .item.lifi {
 	font-size:40px;
 	width:420px;
-	text-align: center;
 	line-height: 40px;
 }
 
@@ -319,6 +351,12 @@ a {
 
 }
 
+.item.grace {
+	width:500px;
+	font-size:60px;
+	line-height:65px;
+}
+
 
 .stroke {
 	border-color:black;
@@ -334,3 +372,7 @@ a {
 	size:5px;
 
 }
+
+@font-face {
+	font-family: arow;
+	src: url(fonts/AROW-Bold.otf);
