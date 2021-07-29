@@ -3,7 +3,7 @@ body {
 	font-size: 28px;
 	font-weight:bolder;
 	color:white;
-	background-color:burlywood;
+	background-color:black;
 }
 
 img {
@@ -19,7 +19,7 @@ img {
 }
 
 .person1 {
-	background-color:rgba(21, 155, 126, 0.829);
+	background-color:blue;
 }
 
 .person1:hover {
@@ -27,11 +27,11 @@ img {
 }
 
 .person2 {
-	background-color:peru
+	background-color:violet
 }
 
 .person2:hover {
-	background-color:orangered;
+	background-color:limegreen;
 }
 
 .left {
@@ -88,14 +88,14 @@ img {
 
 .subtitle {
 	font-size:16px;
-	color:darkcyan;
+	color:blue;
 	
 	
 }
 
 .other {
 	font-size: 16px;
-	color:#f87C6E;
+	color:violet;
 	text-align:left;
 
 }
@@ -107,11 +107,13 @@ img {
 .timestamp {
 	text-align:center;
 	margin-top:10px;
+	font-weight: normal;
+	font-size: 80%;
 }
 
 .contact {
 	border-radius: 75px;
-	background-color: black;
+	background-color: violet;
 	text-align:center;
 	margin:15px;
 	width:120px;
@@ -121,7 +123,7 @@ img {
 }
 
 .home a {
-	color:darkcyan;
+	color:lime;
 	text-decoration: none;
 }
 
@@ -129,29 +131,34 @@ img {
 	position:fixed;
 	right:15px;
 	bottom:15px;
-	background-color:#f87C6E;
+	background-color:blue;
 	padding:15px;
 	border-radius:75px;
-	text-emphasis-color:black;
+	text-emphasis-color:white;
 	text-align:center;
 	text-decoration:none;
 	font-weight:normal;
 }
 
+.sendbutton a {
+	color:#F8C93A;
+	text-decoration: none;
+}
 
 
 .homepage {
 	text-align:center;
 	margin-top:255px;
-	font-size:300px;
+	font-size:300%;
 }
 
 .homepage a {
 	text-decoration:none;
-	color:black;
+	color:white;
 	padding:15px;
 	font-style:bold;
 	font-size:300px;
+	letter-spacing: -20px;
 	text-align:center;
 	
 }
@@ -182,7 +189,7 @@ img {
 
 	}
 50% {
-		background-color:  burlywood;
+		background-color:  white;
 }
 
 	100% {
@@ -192,18 +199,18 @@ img {
 }
 
 .homepage:hover {
-	background-color: peru;
+	background-color: blue;
 	transition:1s;
 	border-radius:70%;
 }
 
 .pronounce {
-	color:black;
+	color:white;
 	text-align:center;
 }
 
 .definition {
-	color:black;
+	color:white;
 	text-align:center;
 	padding:15px;
 	font-style:italic;
@@ -212,7 +219,7 @@ img {
 }
 
 .definition:hover {
-	background-color:rgba(21, 155, 126, 0.829);
+	background-color:violet;
 	transition:1s;
 	border-radius:20%;
 	height:10px;
@@ -220,14 +227,14 @@ img {
 }
 
 .example {
-	color:black;
+	color:white;
 	text-align:center;
 	font:message-box;
 	margin-bottom:20px
 }
 
 .button a {
-	color:black;
+	color:#F8C93A;
 	text-decoration: none;
 
 	
@@ -238,8 +245,10 @@ img {
 	margin-top: 50px;
 	margin:auto;
 	margin-bottom:50px;
-	color:black;
-	font-family: 'Times New Roman', Times, serif;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size:20px;
 	
 }
 
@@ -254,19 +263,22 @@ img {
 	font-size:70px;
 	margin-top:15px;
 	margin-bottom:20px;
-	color:black;
-	font-family: 'Times New Roman', Times, serif;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: -5px;
 	
 
 }
 
 .author {
 	text-align:left;
-	color:black;
+	color:white;
 	font-style: italic;
 	font-size:25px;
 	margin-bottom: 50px;
-	margin-top:15px
+	margin-top:15px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: -2px;
 
 }
 
